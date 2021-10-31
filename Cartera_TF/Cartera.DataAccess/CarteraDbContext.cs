@@ -20,6 +20,7 @@ namespace Cartera.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-44K5N6D\MSSQLSERVER2;Database=CarteraDb;Integrated Security=true;");
+            optionsBuilder.UserSqlServer(@"Data Source=SQL5063.site4now.net;Initial Catalog=db_a7bd8f_cartera;User Id=db_a7bd8f_cartera_admin;Password=5RXmJw#bPBxU3s@");
 
         }
 
