@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VTnbps6AwiN6FXYoEGTDBjvHUD9v/6pB5iAACyxRb8F8q7kjoKH6pLRhOpw67OTAnu5nt2pverUuxDTr7gfjPQ==",
+  "success": true,
+  "projectFilePath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\Cartera.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bill\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

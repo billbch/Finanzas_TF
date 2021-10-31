@@ -1,0 +1,10 @@
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\bin\Debug\netstandard2.1\Cartera.DTO.deps.json
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\bin\Debug\netstandard2.1\Cartera.DTO.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\bin\Debug\netstandard2.1\Cartera.DTO.pdb
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.csproj.AssemblyReference.cache
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.AssemblyInfoInputs.cache
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.AssemblyInfo.cs
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.csproj.CoreCompileInputs.cache
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.DTO\obj\Debug\netstandard2.1\Cartera.DTO.pdb

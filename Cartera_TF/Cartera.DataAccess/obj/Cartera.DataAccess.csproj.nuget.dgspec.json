@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DataAccess\\Cartera.DataAccess.csproj": {}
+  },
+  "projects": {
+    "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DataAccess\\Cartera.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DataAccess\\Cartera.DataAccess.csproj",
+        "projectName": "Cartera.DataAccess",
+        "projectPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DataAccess\\Cartera.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
+        "outputPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\Cartera.Entities.csproj": {
+                "projectPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\Cartera.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\Cartera.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\Cartera.Entities.csproj",
+        "projectName": "Cartera.Entities",
+        "projectPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\Cartera.Entities.csproj",
+        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
+        "outputPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

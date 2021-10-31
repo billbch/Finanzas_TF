@@ -1,0 +1,17 @@
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.Services.deps.json
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.Services.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.Services.pdb
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.DataAccess.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.DTO.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.Entities.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.DataAccess.pdb
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.DTO.pdb
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\bin\Debug\netstandard2.1\Cartera.Entities.pdb
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.csproj.AssemblyReference.cache
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.AssemblyInfoInputs.cache
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.AssemblyInfo.cs
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.csproj.CoreCompileInputs.cache
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.csproj.CopyComplete
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.dll
+D:\U\7\Finanzas\tf\Cartera_TF\Cartera.Services\obj\Debug\netstandard2.1\Cartera.Services.pdb
