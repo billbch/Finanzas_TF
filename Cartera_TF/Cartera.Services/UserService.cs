@@ -27,7 +27,8 @@ namespace Cartera.Services
         {
             Account account = new Account();
             User user = new User
-            {
+            {          
+                    Name=u.Name,
                     Address = u.Address,
                     Phone = u.Phone,
                     Email = u.Email,
@@ -63,7 +64,7 @@ namespace Cartera.Services
             return collection
                 .Select(Bill => new UserDto
                 {
-
+                    Name=Bill.Name,
                     Address = Bill.Address,
                     Phone = Bill.Phone,
                     Email = Bill.Email,
@@ -86,6 +87,7 @@ namespace Cartera.Services
 
             response.Result = new UserDto
             {
+                Name=Bill.Name,
                 Address = Bill.Address,
                 Phone = Bill.Phone,
                 Email = Bill.Email,
@@ -103,6 +105,7 @@ namespace Cartera.Services
             await _personProfileRepository.Update(new Entities.User
             {
                 Id = id,
+                Name=u.Name,
                 Address = u.Address,
                 Phone = u.Phone,
                 Email = u.Email,
