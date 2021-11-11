@@ -22,6 +22,7 @@ namespace Cartera.Services
                 await _AppointmentRepository.Create(new Entities.Portfolio
                 {
 
+                    Name = p.Name,
                     TIR = p.TIR,
                     UserId = p.UserId,
 
@@ -45,7 +46,7 @@ namespace Cartera.Services
             return collection
                 .Select(p => new PortfolioDto
                 {
-
+                    Name = p.Name,
                     TIR = p.TIR,
                     UserId = p.UserId,
 
@@ -66,6 +67,8 @@ namespace Cartera.Services
 
             response.Result = new PortfolioDto
             {
+            
+                Name = p.Name,
                 TIR = p.TIR,
                 UserId = p.UserId,
             };
@@ -79,6 +82,7 @@ namespace Cartera.Services
             await _AppointmentRepository.Update(new Entities.Portfolio
             {
                 Id = id,
+                Name = p.Name,
                 TIR = p.TIR,
                 UserId = p.UserId,
 
