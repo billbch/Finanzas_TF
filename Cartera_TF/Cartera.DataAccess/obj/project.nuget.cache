@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KSirlmAoYdhEJsNEue73l6I9ZGv71dtGpRIzDCvBsvT5byec1zqi7TfrXDb/W3cSCteocE/fqZbm+KwbEOLsVQ==",
+  "dgSpecHash": "RwY7L32vOMgnQdTxl4tNV3XNSf0bxGMaYHIOPtflxlMM+8eJ4Z1Es+EBhOKfhHCv57tsDCTtcIqKXIskAbBFdQ==",
   "success": true,
-  "projectFilePath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DataAccess\\Cartera.DataAccess.csproj",
+  "projectFilePath": "D:\\U\\7\\Finanzas\\tf\\git cartera back\\Finanzas_TF\\Cartera_TF\\Cartera.DataAccess\\Cartera.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bill\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bill\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

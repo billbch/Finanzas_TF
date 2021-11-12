@@ -12,5 +12,6 @@ namespace Cartera.Services
 
         [Required]
         public string Password { get; set; }
+        
     }
 }

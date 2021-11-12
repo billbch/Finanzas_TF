@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3LLQGaLqyfj0krfsIjU4MOvckSNzTSw6nImswMAWsYhkUNMFaeRMh/O4bX9nz47gjNU2nxM3LJ2VVaQa6gI+w==",
+  "dgSpecHash": "3wvvhXkoaI4wMKsRNkkyADmHDUyjyI0M+SvXx6253Ckexv15RDSPZ8TbLDjPuOwfdwfZNyp+zuDwtisaikpLaA==",
   "success": true,
-  "projectFilePath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.Api\\Cartera.Api.csproj",
+  "projectFilePath": "D:\\U\\7\\Finanzas\\tf\\git cartera back\\Finanzas_TF\\Cartera_TF\\Cartera.Api\\Cartera.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bill\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bill\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",

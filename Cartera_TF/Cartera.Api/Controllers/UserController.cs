@@ -11,7 +11,7 @@ namespace Cartera.Controllers
     //[Authorize]
     [ApiController]
     [Route("/api/v1/[controller]")]
-    //[ApiVersion("1.0")]
+    [ApiVersion("1.0")]
     public class UserController : Controller
     {
            private readonly IUserService _service;

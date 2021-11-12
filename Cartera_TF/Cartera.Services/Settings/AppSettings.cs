@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
-namespace Cartera.Services.Settings
+namespace Cartera.Services
 {
     public class AppSettings
     {

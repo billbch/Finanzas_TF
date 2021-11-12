@@ -26,7 +26,7 @@ namespace Cartera.Services
             services.AddTransient<IType_Interest_RateService, Type_Interest_RateService>();
 
             services.AddTransient<IAccountRepository, AccountRepository>();
-            services.AddTransient<IUserServiceConfirmation, UserServiceConfirmation>();
+            services.AddScoped<IUserServiceConfirmation, UserServiceConfirmation>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

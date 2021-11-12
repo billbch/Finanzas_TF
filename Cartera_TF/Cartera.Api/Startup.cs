@@ -1,6 +1,6 @@
 using Cartera.DataAccess;
 using Cartera.Services;
-using Cartera.Services.Settings;
+//using Cartera.Services.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,12 +28,12 @@ namespace Cartera.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var tmp = Configuration["Secret"];
             services.AddInjection();
             services.AddDbContext<CarteraDbContext>(options =>
             {
-                //options.UseSqlServer(@"Server=DESKTOP-44K5N6D\MSSQLSERVER2;Database=CarteraDb;Integrated Security=true;");
-                options.UseSqlServer(@"Data Source=SQL5063.site4now.net;Initial Catalog=db_a7bd8f_cartera;User Id=db_a7bd8f_cartera_admin;Password=5RXmJw#bPBxU3s@");
-
+                options.UseSqlServer(@"Server=DESKTOP-44K5N6D\MSSQLSERVER2;Database=CarteraDb;Integrated Security=true;");
+                //options.UseSqlServer(@"Data Source=SQL5063.site4now.net;Initial Catalog=db_a7bd8f_cartera;User Id=db_a7bd8f_cartera_admin;Password=5RXmJw#bPBxU3s@");
             });
             services.AddControllers();
             services.AddSwaggerGen(c =>

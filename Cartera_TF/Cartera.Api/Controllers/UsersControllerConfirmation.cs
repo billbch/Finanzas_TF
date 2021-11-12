@@ -8,7 +8,7 @@ namespace Cartera.Controllers
     [Authorize]
     [ApiController]
     [Route("/api/[controller]")]
-    //[ApiVersion("1.0")]
+    [ApiVersion("1.0")]
     public class UsersControllerConfirmation : ControllerBase
     {
         private IUserServiceConfirmation _userService;

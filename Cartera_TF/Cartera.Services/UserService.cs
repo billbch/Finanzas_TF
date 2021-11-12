@@ -27,7 +27,7 @@ namespace Cartera.Services
         {
             Account account = new Account();
             User user = new User
-            {          
+            {
                     Name=u.Name,
                     Address = u.Address,
                     Phone = u.Phone,
@@ -38,11 +38,12 @@ namespace Cartera.Services
             try
             {
                 await _personProfileRepository.Create(user); ; ; ;
-                account.User = user.Email;
+                account.Userr = user.Name;
                 account.Password = user.Password;
                 await _unitOfWork.CompleteAsync();
                 account.Idf = user.Id;
                 account.RolId = 0;
+
                 await _accountRepository.AddAsyn(account);
             }
 
@@ -64,7 +65,7 @@ namespace Cartera.Services
             return collection
                 .Select(Bill => new UserDto
                 {
-                    Name=Bill.Name,
+                    Name = Bill.Name,
                     Address = Bill.Address,
                     Phone = Bill.Phone,
                     Email = Bill.Email,

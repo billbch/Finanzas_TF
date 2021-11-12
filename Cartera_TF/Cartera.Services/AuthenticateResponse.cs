@@ -18,7 +18,7 @@ namespace Cartera.Services
         public AuthenticateResponse(Account user, string token)
         {
             Id = user.Id;
-            Username = user.User;
+            Username = user.Userr;
             Token = token;
             Idf = user.Idf;
             RolId = user.RolId;

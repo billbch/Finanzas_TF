@@ -28,7 +28,7 @@ namespace Cartera.DataAccess
 
         public Task<Account> GetByUserandPasswordIdAsync(string username, string password) =>
             _context.Accounts
-           .Where(x => x.User == username && x.Password == password)
+           .Where(x => x.Userr == username && x.Password == password)
            .FirstAsync();
        
     }

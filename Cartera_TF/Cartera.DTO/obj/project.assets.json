@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DTO\\Cartera.DTO.csproj",
+      "projectUniqueName": "D:\\U\\7\\Finanzas\\tf\\git cartera back\\Finanzas_TF\\Cartera_TF\\Cartera.DTO\\Cartera.DTO.csproj",
       "projectName": "Cartera.DTO",
-      "projectPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DTO\\Cartera.DTO.csproj",
+      "projectPath": "D:\\U\\7\\Finanzas\\tf\\git cartera back\\Finanzas_TF\\Cartera_TF\\Cartera.DTO\\Cartera.DTO.csproj",
       "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-      "outputPath": "D:\\U\\7\\Finanzas\\tf\\Cartera_TF\\Cartera.DTO\\obj\\",
+      "outputPath": "D:\\U\\7\\Finanzas\\tf\\git cartera back\\Finanzas_TF\\Cartera_TF\\Cartera.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

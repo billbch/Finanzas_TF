@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cartera.DataAccess.Migrations
 {
     [DbContext(typeof(CarteraDbContext))]
-    [Migration("20211031160343_InitialMigration")]
+    [Migration("20211111055927_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,10 +37,15 @@ namespace Cartera.DataAccess.Migrations
                     b.Property<int>("RolId")
                         .HasColumnType("int");
 
-                    b.Property<string>("User")
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Userr")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Accounts");
                 });
@@ -141,6 +146,10 @@ namespace Cartera.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("TIR")
                         .HasColumnType("float");
 
@@ -186,6 +195,10 @@ namespace Cartera.DataAccess.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -199,6 +212,15 @@ namespace Cartera.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Cartera.Entities.Account", b =>
+                {
+                    b.HasOne("Cartera.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Cartera.Entities.Bill", b =>
