@@ -6,10 +6,11 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 
-using Cartera.DataAccess;
-using Cartera.Services.Settings;
-using Cartera.Entities;
 
+using Cartera.DataAccess;
+//using Cartera.Services.Settings;
+using Cartera.Entities;
+using Microsoft.Extensions.Configuration;
 
 namespace Cartera.Services
 {
@@ -21,13 +22,17 @@ namespace Cartera.Services
 
         // Secret Settings
         private readonly AppSettings _appSettings;
+        private readonly IConfiguration Configuration;
 
 
-       public UserServiceConfirmation(IOptions<AppSettings> appSettings, IAccountRepository accountRepository)
+       public UserServiceConfirmation(IOptions<AppSettings> appSettings, IAccountRepository accountRepository, IConfiguration configuration)
       {
 
            _appSettings = appSettings.Value;
           _accountRepository = accountRepository;
+            Configuration = configuration;
+            
+            
       }
 
         public AuthenticateResponse Authenticate(AuthenticateRequest body)
@@ -52,7 +57,9 @@ namespace Cartera.Services
         private string generateJwtToken(Account user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+            var miconf = Configuration["Secret"];
+            var key = Encoding.ASCII.GetBytes(Configuration["Secret"]);
+            
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
