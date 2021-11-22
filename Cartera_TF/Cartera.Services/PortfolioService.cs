@@ -46,7 +46,7 @@ namespace Cartera.Services
             return collection
                 .Select(p => new PortfolioDto
                 {
-
+                    Id=p.Id,
                     Name = p.Name,
                     TIR = p.TIR,
                     UserId = p.UserId,
