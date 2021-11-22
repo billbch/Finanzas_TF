@@ -21,7 +21,7 @@ namespace Cartera.Services
             {
                 await _AppointmentRepository.Create(new Entities.Bill
                 {
-                    Id=Bill.Id,
+                   
                     DEmission = Bill.DEmission,
                     DPayment = Bill.DPayment,
                     QTotal_Bill = Bill.QTotal_Bill,
@@ -53,7 +53,7 @@ namespace Cartera.Services
             return collection
                 .Select(Bill => new BillDto
                 {
-
+                    Id=Bill.Id,
                     DEmission = Bill.DEmission,
                     DPayment = Bill.DPayment,
                     QTotal_Bill = Bill.QTotal_Bill,
