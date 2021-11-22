@@ -18,7 +18,7 @@ namespace Cartera.DTO
 
         public string Type_Capitalizacion { get; set; }
 
-        public int NumTotal_Retention { get; set; }
+        public float NumTotal_Retention { get; set; }
 
         public int PortfolioId { get; set; }
     }
