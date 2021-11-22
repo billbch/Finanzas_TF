@@ -34,7 +34,7 @@ namespace Cartera.Entities
         public string Type_Capitalizacion { get; set; }
 
         [Required]
-        public int NumTotal_Retention{ get; set; }
+        public float NumTotal_Retention{ get; set; }
 
         [Required]
         public int PortfolioId { get; set; }
